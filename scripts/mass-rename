@@ -1,0 +1,22 @@
+#! /usr/bin/env bash
+
+#######################################################################################################
+# Exercise
+#######################################################################################################
+#
+# As you'll note, the filenames in demo/lorem-ipsum are pointlessly long.  Imagine there's a good reason to shorten them all
+# and write a script to do so.
+#
+# Use a combination of the following:
+# 1 - for loop with 'ls' command
+# 2 - mv -v, echo, and sed commands
+#
+# with sed, you could for example, change the beginning of a string this way, using the ^ anchor in the regular expression:
+#    $ echo 'Oh What a beautiful MORNING! Oh What a beautiful Day!' | sed 's/^O/A/'
+# you can also say 'change everything that's NOT in this group':
+#    $ echo 'Oh What a beautiful MORNING! Oh What a beautiful Day!' | sed 's/^[^!]/A/'
+
+for f in $()
+do
+  echo $f
+done
