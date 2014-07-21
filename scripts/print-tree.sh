@@ -28,9 +28,12 @@ print-tree-recursive $(pwd)
 ###################################################################################
 
 # 1 - Make the script start with a directory supplied as an argument from the command line, rather than current working directory
-# 2 - Refactor the script so it gives identical output, but works using cd rather than ls.  That is, you won't give ls a path when you
+# 2 - What happens if you don't use the 'basename' command?  What happens if $dir or $depth_indent aren't local?
+# 3 - Refactor the script so it gives identical output, but works using cd rather than ls.  That is, you won't give ls a path when you
 #     call it in the 'for' loop, and the 'for' loop will only use 2 variables instead of three.
-# 3 - Instead of printing entries in each dir (the dir and file names), just print the dir name and its depth in the tree as a number.
+# 4   Does one version run faster?  Use the 'time' command and point to a big directory.
+# 5 - Instead of printing entries in each dir (the dir and file names), just print the dir name and its depth in the tree as a number.
+#     You'll probably need a 3rd positional parameter
 #
 #     root-dir 0
 #       first-child 1
