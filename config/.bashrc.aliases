@@ -1,0 +1,8 @@
+alias ll='ls -al'
+alias gv="open -a MacVim"
+
+# eject all USB drives
+alias um="diskutil list | grep -Eo '/dev/disk[2-9][0-9]*' | xargs diskutil unmountDisk"
+
+# man page with line numbers via 'less' options
+alias nman='env LESS="$LESS"N man'

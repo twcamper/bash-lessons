@@ -1,0 +1,10 @@
+#! /usr/bin/env bash
+
+######################################################
+# Exercise
+######################################################
+#
+# What do you observe when you run this file as a script,
+# and then run the same command on the command line directly?
+
+echo Depth: $SHLVL Parent: $PPID Self: $$
