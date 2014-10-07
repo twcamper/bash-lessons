@@ -17,7 +17,7 @@ echo 'Oh What a beautiful MORNING! Oh What a beautiful Day!' | sed 's/^O/A/'
 # you can also say 'change everything that's NOT in this group', i.e., 'up to' this thing:
 echo 'Oh What a beautiful MORNING! Oh What a beautiful Day!' | sed 's/^[^!]*/A/'
 
-# 1 - How could you use said to remove everything before 'Version*'?
+# 1 - How could you use sed to remove everything before 'Version*'?
 # 2 - How could you remove other useless information from the middle?
 
 for f in $()
